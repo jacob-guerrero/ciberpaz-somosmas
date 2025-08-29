@@ -14,11 +14,6 @@ const About = () => {
       description: "Protegemos tu información y privacidad en línea"
     },
     {
-      icon: BookOpen,
-      title: "Derechos digitales",
-      description: "Educamos sobre tus derechos en el mundo digital"
-    },
-    {
       icon: Leaf,
       title: "Medio ambiente",
       description: "Cuidamos nuestro entorno para las futuras generaciones"
@@ -53,7 +48,7 @@ const About = () => {
               Nuestros 5 pilares <span className="text-secondary">CiberPaz</span>
             </h3>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {pillars.map((pillar, index) => (
                 <div 
                   key={pillar.title}

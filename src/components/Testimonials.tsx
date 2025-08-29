@@ -25,7 +25,7 @@ const Testimonials = () => {
       age: 19,
       role: "Universitaria",
       avatar: "AM",
-      quote: "Me encanta que no es una competencia, sino que todos trabajamos por el mismo objetivo. Mi escuela ya ganó dos insignias colectivas y estamos muy orgullosos.",
+      quote: "Me encanta que no es una competencia, sino que todos trabajamos por el mismo objetivo. Lo compartí con mis compañeros para mejorar la comunidad.",
       rating: 5,
       location: "Comuna 1, Pasto"
     }

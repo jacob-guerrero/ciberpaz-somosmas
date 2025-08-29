@@ -18,7 +18,7 @@ const CTA = () => {
               <span className="text-accent">es una comunidad</span>
             </h2>
             <p className="text-xl md:text-2xl opacity-90 max-w-3xl mx-auto leading-relaxed">
-              ¡Únete y sé parte del cambio en Nariño! 
+              ¡Únete y sé parte del cambio en la Región! 
               Juntos construimos el futuro que queremos ver.
             </p>
           </div>
@@ -27,13 +27,13 @@ const CTA = () => {
           <div className="animate-fade-in-up flex flex-col sm:flex-row gap-6 justify-center items-center mb-16" style={{ animationDelay: '0.2s' }}>
             <Button variant="accent" size="xl" className="group bg-white text-primary hover:bg-white/90 shadow-hero">
               <Smartphone className="w-6 h-6" />
-              Descargar App (Pronto)
+              Ingresa Ahora
               <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
             </Button>
-            <Button variant="outline" size="xl" className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm">
+            {/* <Button variant="outline" size="xl" className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm">
               <Play className="w-5 h-5" />
               Probar Demo
-            </Button>
+            </Button> */}
           </div>
 
           {/* Features Preview */}
