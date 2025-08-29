@@ -51,9 +51,6 @@ const Footer = () => {
                 <a href="#" className="w-10 h-10 bg-background/10 rounded-full flex items-center justify-center hover:bg-accent hover:text-foreground transition-all">
                   <Instagram className="w-5 h-5" />
                 </a>
-                <a href="#" className="w-10 h-10 bg-background/10 rounded-full flex items-center justify-center hover:bg-accent hover:text-foreground transition-all">
-                  <Zap className="w-5 h-5" />
-                </a>
               </div>
             </div>
 
@@ -105,7 +102,7 @@ const Footer = () => {
           {/* Bottom Bar */}
           <div className="border-t border-background/20 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-background/60 text-sm mb-4 md:mb-0">
-              © 2024 Somos+. Construido con amor para la comunidad de Nariño.
+              © 2025 Somos+. Construido con amor para la comunidad de Nariño.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-background/60 hover:text-accent transition-colors">
