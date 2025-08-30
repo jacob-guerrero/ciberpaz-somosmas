@@ -34,7 +34,10 @@ const CTA = () => {
               size="xl"
               className="group bg-white text-primary hover:bg-white/90 shadow-hero"
             >
-              <a href="https://honeydew-fish-331569.hostingersite.com/">
+              <a
+                href="https://honeydew-fish-331569.hostingersite.com/"
+                target="_blank"
+              >
                 <Smartphone className="w-6 h-6" />
                 Ingresa Ahora
                 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />

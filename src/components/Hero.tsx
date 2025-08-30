@@ -54,12 +54,15 @@ const Hero = () => {
             style={{ animationDelay: "0.6s" }}
           >
             <Button asChild variant="hero" size="xl" className="group">
-              <a href="https://honeydew-fish-331569.hostingersite.com/">
+              <a
+                href="https://honeydew-fish-331569.hostingersite.com/"
+                target="_blank"
+              >
                 Únete ahora
                 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
               </a>
             </Button>
-{/*             <Button
+            {/*             <Button
               asChild
               variant="outline"
               size="xl"

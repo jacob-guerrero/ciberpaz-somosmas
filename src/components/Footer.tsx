@@ -1,4 +1,4 @@
-import { Heart, Mail, Facebook, Instagram, Zap } from "lucide-react";
+import { Heart, Mail, Facebook, Instagram, GithubIcon } from "lucide-react";
 
 const Footer = () => {
   const quickLinks = [
@@ -38,8 +38,8 @@ const Footer = () => {
               {/* Contact */}
               <div className="flex items-center mb-4">
                 <Mail className="w-5 h-5 mr-3 text-accent" />
-                <a href="mailto:contacto@somosmas.org" className="text-background/80 hover:text-accent transition-colors">
-                  contacto@somosmas.org
+                <a href="mailto:wjacobguerreroc@gmail.com" className="text-background/80 hover:text-accent transition-colors">
+                  wjacobguerreroc@gmail.com
                 </a>
               </div>
               
@@ -50,6 +50,9 @@ const Footer = () => {
                 </a>
                 <a href="#" className="w-10 h-10 bg-background/10 rounded-full flex items-center justify-center hover:bg-accent hover:text-foreground transition-all">
                   <Instagram className="w-5 h-5" />
+                </a>
+                <a href="https://github.com/jacob-guerrero/ciberpaz-somosmas" target="_blank" className="w-10 h-10 bg-background/10 rounded-full flex items-center justify-center hover:bg-accent hover:text-foreground transition-all">
+                  <GithubIcon className="w-5 h-5" />
                 </a>
               </div>
             </div>
